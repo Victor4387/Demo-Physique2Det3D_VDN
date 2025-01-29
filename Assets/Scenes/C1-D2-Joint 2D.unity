@@ -1575,7 +1575,7 @@ SpringJoint2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693662437}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 1064706281}
@@ -1586,8 +1586,8 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: -0.000000054832093}
   m_AutoConfigureDistance: 0
-  m_Distance: 6.802935
-  m_DampingRatio: 0
+  m_Distance: 10
+  m_DampingRatio: 1
   m_Frequency: 1
 --- !u!257 &1693662443
 TargetJoint2D:
@@ -1628,7 +1628,7 @@ HingeJoint2D:
   m_ConnectedAnchor: {x: 0.010000005, y: -0.45538616}
   m_UseMotor: 1
   m_Motor:
-    m_MotorSpeed: 5
+    m_MotorSpeed: 3300
     m_MaximumMotorForce: 10000
   m_UseLimits: 0
   m_AngleLimits:
